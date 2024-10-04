@@ -5,7 +5,7 @@ import {
   KeyboardAvoidingViewProps,
 } from 'react-native';
 
-interface RBSheetProps {
+export interface RBSheetProps {
   /**
    * The height of bottom sheet.
    */
@@ -99,7 +99,7 @@ interface RBSheetProps {
   children?: React.ReactNode;
 }
 
-interface RBSheetRef {
+export interface RBSheetRef {
   /**
    * The method to open bottom sheet.
    */
